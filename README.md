@@ -54,7 +54,7 @@ yarn init -y && yarn tsc --init
 Para adicionar dependencias
 
 ```
-yarn add express typeorm reflect-metadata sqlite3 uuid express-async-errors
+yarn add express typeorm reflect-metadata sqlite3 uuid express-async-errors pd
 ```
 
 Para adicionar dependencias de desenvolvimento
