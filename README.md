@@ -30,7 +30,7 @@ cp .env_template .env
 
 ## Provisionamento
 
-Para iniciar os serviços de _Web Server_:
+Para iniciar os serviços de Banco de Dados:
 
 ```shell
 docker-compose up -d --build
