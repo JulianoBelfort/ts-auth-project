@@ -1,4 +1,4 @@
-# Fullstack Node + React Project
+# TypeScript Backend Model Project
 
 ---
 
@@ -29,7 +29,7 @@ cp .env_template .env
 
 ## Provisionamento
 
-Para iniciar os serviços de _Web Server_ e Portal de Locações:
+Para iniciar os serviços de _Web Server_:
 
 ```shell
 docker-compose up -d --build
