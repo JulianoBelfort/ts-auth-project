@@ -9,7 +9,10 @@ class AuthController {
         const repository = getRepository(User);
         const { email, password } = req.body;
 
-        const user = await repository.findOne({ email });
+        const user = await repository.findOne({
+            select: ['id', 'email', 'password'],
+            where: { email },
+        });
 
         if (!user) return res.status(401).json({ error: 'User not found' });
 
